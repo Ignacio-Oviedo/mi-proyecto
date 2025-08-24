@@ -1,11 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Página Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Cosméticos - Mi Marca</title>
+    <style>
+        /* Aquí va el código CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f0e5;
+            color: #333;
+        }
+
+        header {
+            background-color: #d1b5a5;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #6a4a40;
+        }
+
+        .products-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .product-card h3 {
+            margin: 15px 0 5px;
+            color: #a87d60;
+        }
+
+        .product-card p {
+            padding: 0 15px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .price {
+            font-size: 1.5em;
+            color: #a87d60;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .buy-button {
+            display: inline-block;
+            background-color: #a87d60;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .buy-button:hover {
+            background-color: #8c6a51;
+        }
+
+        footer {
+            background-color: #d1b5a5;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>¡Bienvenido a mi página web!</h1>
-    <p>Esta página está siendo servida por Nginx.</p>
+
+    <header>
+        <h1>Mi Tienda de Cosméticos</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Nuestros Productos Destacados</h2>
+        <div class="products-grid">
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300.png?text=Producto+1" alt="Descripción del producto 1">
+                <h3>Crema Hidratante Facial</h3>
+                <p>Una crema ligera que hidrata profundamente, dejando la piel suave y radiante. Ideal para uso diario.</p>
+                <span class="price">$25.99</span>
+                <a href="#" class="buy-button">Comprar</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300.png?text=Producto+2" alt="Descripción del producto 2">
+                <h3>Bálsamo Labial de Coco</h3>
+                <p>Nutre y repara los labios secos con un delicioso aroma a coco. Formulado con ingredientes naturales.</p>
+                <span class="price">$8.50</span>
+                <a href="#" class="buy-button">Comprar</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300.png?text=Producto+3" alt="Descripción del producto 3">
+                <h3>Serum de Vitamina C</h3>
+                <p>Aclara y unifica el tono de la piel, reduce manchas y protege contra los daños del sol.</p>
+                <span class="price">$35.00</span>
+                <a href="#" class="buy-button">Comprar</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mi Tienda de Cosméticos. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>

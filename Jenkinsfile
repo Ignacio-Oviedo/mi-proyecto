@@ -1,13 +1,13 @@
 pipeline {
-    agent {
-        docker {
-            image 'docker'
-        }
-    }
+    agent none
     stages {
         stage('Build & Deploy') {
+            agent {
+                docker {
+                    image 'docker'
+                }
+            }
             steps {
-		sh 'chmod 666 /var/run/docker.sock'
                 sh 'docker-compose build'
                 sh 'docker-compose down'
                 sh 'docker-compose up -d'

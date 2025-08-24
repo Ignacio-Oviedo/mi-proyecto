@@ -11,10 +11,9 @@ pipeline {
     }
     stage('Build & Deploy') {
       steps {
-        sh 'docker rm -f jenkins mi-proyecto-web_db_1 || true'
-        sh 'docker-compose down'
-        sh 'docker-compose build'
-        sh 'docker-compose up -d'
+        sh 'docker-compose -f docker-compose.app.yml down'
+        sh 'docker-compose -f docker-compose.app.yml build'
+        sh 'docker-compose -f docker-compose.app.yml up -d'
       }
     }
   }

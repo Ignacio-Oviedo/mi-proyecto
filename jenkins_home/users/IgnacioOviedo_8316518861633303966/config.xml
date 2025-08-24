@@ -1,8 +1,8 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <user>
   <version>10</version>
-  <id>Ignacio_Oviedo</id>
-  <fullName>Jose Ignacio Oviedo Gimenez</fullName>
+  <id>IgnacioOviedo</id>
+  <fullName>José Ignacio Oviedo Giménez</fullName>
   <properties>
     <io.jenkins.plugins.thememanager.ThemeUserProperty plugin="theme-manager@319.v9193461f9671"/>
     <jenkins.console.ConsoleUrlProviderUserProperty/>
@@ -33,7 +33,7 @@
       <collapsed/>
     </hudson.model.PaneStatusProperties>
     <jenkins.security.seed.UserSeedProperty>
-      <seed>d58b8b6ca73453cb</seed>
+      <seed>8650a80a0520df9e</seed>
     </jenkins.security.seed.UserSeedProperty>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
@@ -43,7 +43,7 @@
       <flags/>
     </jenkins.model.experimentalflags.UserExperimentalFlagsProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$PRssMl3zNsRdUoYZ2LxQGer2k04OFoZtQEd/8RLu.PL5d.PMvBoS6</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$RM1YnrRmuJitciKj.8vjcuef6zj5y0h.QWA1N9mhCrk3gK/dFFudG</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@522.va_995fa_cfb_8b_d">
       <emailAddress>oviedoignacio99@gmail.com</emailAddress>

@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15-alpine
+    ... (el resto de tu configuración para la base de datos)
+  backend:
+    build: .
+    ... (el resto de tu configuración para el backend)
+  frontend:
+    image: nginx:latest
+    ... (el resto de tu configuración para el frontend)
